@@ -6,6 +6,7 @@
     font-style: normal;
 }
 
+/* INICIO HEADER */
 .divHeader {
     display: flex;
     justify-content: space-between;
@@ -41,11 +42,13 @@
     margin-top: 15px;
     display: none;
 }
-
+/* FINAL HEADER */
+/* INICIO MAIN */
 main {
     width: 100%;
 }
 
+/* INICIO SECCION GRAFICO */
 .sectionGrafico {
     display: flex;
     flex-direction: column;
@@ -102,7 +105,8 @@ main {
     padding: 15px;
     margin-top: 15px;
 }
-
+/* FINAL SECCION GRAFICO */
+/* INICIO SECCION NUMERO CON FONDO */
 .sectionNumeroConFondo {
     display: flex;
     flex-direction: column;
@@ -188,7 +192,9 @@ main {
     margin-right: 10px;
     margin-left: 20px;
 }
+/* FINAL SECCION NUMERO CON FONDO */
 
+/* INICIO SECCION TESTIMONIO */
 .sectionTestimonio {
     display: flex;
     flex-direction: column;
@@ -306,7 +312,9 @@ main {
     height: 65vh;
     background-color: rgb(242, 95, 58);
 }
+/* FINAL SECCION TESTIMONIO */
 
+/* INICIO SECCION PRE FOOTER */
 .encabezadoSectionPreFooter {
     font-weight: 700;
     font-size: 2.7rem;
@@ -325,7 +333,9 @@ main {
     background-color: white;
     padding: 15px;
 }
+/* FINAL SECCION PRE FOOTER */
 
+/* INICIO FOOTER */
 footer {
     width: 100%;
     height: 88vh;
@@ -401,13 +411,8 @@ footer {
     width: 95%;
 }
 
-
 .li1SectionFooter {
     margin-bottom: 15px;
-}
-
-.li1SectionFooter:hover {
-    color: #F3603B;
 }
 
 .iconsFooter {
@@ -440,8 +445,10 @@ footer {
     color: #8C8C94;
     margin-top: 100px;
 }
+/* FINAL FOOTER */
 
 @media(min-width: 1399px) {
+    /* INICIO HEADER */
     .imgHeader2{
         display: none;
     }
@@ -484,7 +491,9 @@ footer {
         background-color: white;
         color: #F3603B;
     }
+    /* FINAL HEADER */
 
+    /* INICIO SECTION GRAFICO */
     .sectionGrafico {
         flex-direction: row-reverse;
         justify-content: space-between;
@@ -525,7 +534,9 @@ footer {
         margin-left: 17px;
         color: #000000
     }
+    /* FINAL SECTION GRAFICO */
 
+    /* INICIO SECTION NUMERO CON FONDO */
     .sectionNumeroConFondo {
         flex-direction: row;
         justify-content: center;
@@ -591,14 +602,9 @@ footer {
         width: 60%;
         margin-left: 200px;
     }
+    /* FINAL SECTION NUMERO CON FONDO */
 
-    .divGeneralArticleTestimonio {
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        width: 95%;
-    }
-
+    /* INICIO SECTION TESTIMONIO */
     .sectionTestimonio {
         display: flex;
         flex-direction: row;
@@ -609,6 +615,13 @@ footer {
         margin-top: 10px;
         margin-left: 60px;
         margin-bottom: 80px;
+    }
+
+    .divGeneralArticleTestimonio {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 95%;
     }
     
     .articleTestimonio1 {
@@ -645,7 +658,9 @@ footer {
         margin-top: 30px;
         width: 10%;
     }
+    /* FINAL SECTION TESTIMONIO */
 
+    /* INICIO SECTION PRE FOOTER */
     .sectionPreFooter {
         height: 30vh;
         flex-direction: row;
@@ -657,7 +672,9 @@ footer {
         width: 40%;
         text-align: left;
     }
+     /* FINAL SECTION PRE FOOTER */
 
+     /* INICIO FOOTER */
     footer {
         display: flex;
         flex-direction: row;
@@ -704,6 +721,10 @@ footer {
         margin-top: 30px;
     }
 
+    .li1SectionFooter:hover {
+        color: #F3603B;
+    }
+
     .lista2SectionFooter {
         margin-left: 30px;
     }
@@ -742,4 +763,5 @@ footer {
     .copyrightFooter {
         margin-left: 2px;
     }
+    /* FINAL FOOTER */
 }

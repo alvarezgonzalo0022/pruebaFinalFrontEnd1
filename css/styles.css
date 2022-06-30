@@ -702,12 +702,12 @@ footer {
 
     .lista2SectionFooter {
         padding-top: 55px;
+        padding-right: 10px;
     }
 
 
     .li2SectionFooter {
         margin-right: 10px;
-        font-size: 2rem;
     }
 
     .listasFooterDesktop {

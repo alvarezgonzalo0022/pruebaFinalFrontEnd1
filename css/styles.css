@@ -447,7 +447,7 @@ footer {
 }
 /* FINAL FOOTER */
 
-@media(min-width: 1399px) {
+@media(min-width: 1439px) {
     /* INICIO HEADER */
     .imgHeader2{
         display: none;
